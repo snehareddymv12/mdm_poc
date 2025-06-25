@@ -1,0 +1,55 @@
+.data-table-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+
+  }
+  
+  .data-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 64px;
+    border-top: 1px solid #d1d5db; /* Light gray border */
+    padding: 0 16px;
+    margin-top: 20px; /* Space above each row */
+  }
+  
+  .data-checkbox {
+    margin-right: 16px;
+  }
+  
+  .data-select {
+    background-color: #e5e7eb; /* Light gray background */
+    border-radius: 4px;
+    width: 200px;
+    margin-right: 16px;
+  }
+  
+  .MuiSelect-select {
+    padding: 8px;
+    font-size: 16px;
+    color: #374151;
+    font-weight: 500;
+  }
+  
+  /* Accordion styles */
+  .accordion {
+    width: 10%; /* Decrease the width of the accordions (adjust as needed) */
+    margin-right: 10rem /* Space between Accordions */
+    
+  }
+  .column-name {
+    margin-right: 40px; /* Space between Column Name and Accordions */
+    margin-left: 50px; /* Existing margin for left spacing */
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    backdrop-filter: blur(5px); /* Blur effect */
+}
